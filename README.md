@@ -1,0 +1,2 @@
+# PFXNotice
+PFXNotice,page,show
