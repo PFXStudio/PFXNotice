@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="vwn-ER-gBU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kO5-wd-6lE"/>
                             <constraint firstItem="vwn-ER-gBU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yok-37-gL8"/>

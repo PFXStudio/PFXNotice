@@ -11,5 +11,6 @@
 @interface NoticeViewController : UIViewController
 
 @property (strong, nonatomic) NSString *identifier;
+@property (strong, nonatomic) NoticeData *noticeData;
 
 @end

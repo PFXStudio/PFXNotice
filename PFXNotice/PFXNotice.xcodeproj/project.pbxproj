@@ -26,6 +26,8 @@
 		D2451CEF1D78FB4500E2EE83 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CE71D78FB4500E2EE83 /* UIView+Custom.m */; };
 		D2451CF51D7909CD00E2EE83 /* NoticeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */; };
 		D2451CF81D790F1F00E2EE83 /* StoryboardPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */; };
+		D2451CFB1D79116800E2EE83 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CFA1D79116800E2EE83 /* EmptySegue.m */; };
+		D2451CFF1D79393900E2EE83 /* NoticeData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CFE1D79393900E2EE83 /* NoticeData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,10 @@
 		D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeContainerViewController.m; path = ViewControllers/NoticeContainerViewController.m; sourceTree = "<group>"; };
 		D2451CF61D790F1F00E2EE83 /* StoryboardPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardPerform.h; path = Performs/StoryboardPerform.h; sourceTree = "<group>"; };
 		D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardPerform.m; path = Performs/StoryboardPerform.m; sourceTree = "<group>"; };
+		D2451CF91D79116800E2EE83 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptySegue.h; path = Performs/EmptySegue.h; sourceTree = "<group>"; };
+		D2451CFA1D79116800E2EE83 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptySegue.m; path = Performs/EmptySegue.m; sourceTree = "<group>"; };
+		D2451CFD1D79393900E2EE83 /* NoticeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeData.h; path = Datas/NoticeData.h; sourceTree = "<group>"; };
+		D2451CFE1D79393900E2EE83 /* NoticeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeData.m; path = Datas/NoticeData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		D2451CAC1D78F0A400E2EE83 /* PFXNotice */ = {
 			isa = PBXGroup;
 			children = (
-				D2451CD21D78F5C700E2EE83 /* Performs */,
 				D2451CC91D78F1AA00E2EE83 /* Commons */,
+				D2451CFC1D79392300E2EE83 /* Datas */,
 				D2451CD71D78FB4500E2EE83 /* Decorators */,
+				D2451CD21D78F5C700E2EE83 /* Performs */,
 				D2451CC81D78F1A100E2EE83 /* Storyboards */,
 				D2451CC71D78F19100E2EE83 /* ViewControllers */,
 				D2451CB01D78F0A400E2EE83 /* AppDelegate.h */,
@@ -161,6 +168,8 @@
 		D2451CD21D78F5C700E2EE83 /* Performs */ = {
 			isa = PBXGroup;
 			children = (
+				D2451CF91D79116800E2EE83 /* EmptySegue.h */,
+				D2451CFA1D79116800E2EE83 /* EmptySegue.m */,
 				D2451CF61D790F1F00E2EE83 /* StoryboardPerform.h */,
 				D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */,
 			);
@@ -186,6 +195,15 @@
 				D2451CE71D78FB4500E2EE83 /* UIView+Custom.m */,
 			);
 			path = Decorators;
+			sourceTree = "<group>";
+		};
+		D2451CFC1D79392300E2EE83 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CFD1D79393900E2EE83 /* NoticeData.h */,
+				D2451CFE1D79393900E2EE83 /* NoticeData.m */,
+			);
+			name = Datas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +292,8 @@
 				D2451CD11D78F56400E2EE83 /* NoticeViewController.m in Sources */,
 				D2451CCE1D78F54400E2EE83 /* NoticeMainViewController.m in Sources */,
 				D2451CE91D78FB4500E2EE83 /* NSDate+Custom.m in Sources */,
+				D2451CFF1D79393900E2EE83 /* NoticeData.m in Sources */,
+				D2451CFB1D79116800E2EE83 /* EmptySegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
