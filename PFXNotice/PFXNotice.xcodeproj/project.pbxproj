@@ -14,6 +14,18 @@
 		D2451CBB1D78F0A400E2EE83 /* PFXNotice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2451CB91D78F0A400E2EE83 /* PFXNotice.xcdatamodeld */; };
 		D2451CBD1D78F0A400E2EE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2451CBC1D78F0A400E2EE83 /* Assets.xcassets */; };
 		D2451CC01D78F0A400E2EE83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2451CBE1D78F0A400E2EE83 /* LaunchScreen.storyboard */; };
+		D2451CCB1D78F1F100E2EE83 /* Notice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2451CCA1D78F1F100E2EE83 /* Notice.storyboard */; };
+		D2451CCE1D78F54400E2EE83 /* NoticeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CCD1D78F54400E2EE83 /* NoticeMainViewController.m */; };
+		D2451CD11D78F56400E2EE83 /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CD01D78F56400E2EE83 /* NoticeViewController.m */; };
+		D2451CE81D78FB4500E2EE83 /* NSArray+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CD91D78FB4500E2EE83 /* NSArray+Custom.m */; };
+		D2451CE91D78FB4500E2EE83 /* NSDate+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CDB1D78FB4500E2EE83 /* NSDate+Custom.m */; };
+		D2451CEA1D78FB4500E2EE83 /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CDD1D78FB4500E2EE83 /* NSDate+Formatter.m */; };
+		D2451CEB1D78FB4500E2EE83 /* NSDictionary+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CDF1D78FB4500E2EE83 /* NSDictionary+Custom.m */; };
+		D2451CEC1D78FB4500E2EE83 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CE11D78FB4500E2EE83 /* NSString+Custom.m */; };
+		D2451CED1D78FB4500E2EE83 /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CE31D78FB4500E2EE83 /* UIImage+Custom.m */; };
+		D2451CEF1D78FB4500E2EE83 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CE71D78FB4500E2EE83 /* UIView+Custom.m */; };
+		D2451CF51D7909CD00E2EE83 /* NoticeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */; };
+		D2451CF81D790F1F00E2EE83 /* StoryboardPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,33 @@
 		D2451CBC1D78F0A400E2EE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2451CBF1D78F0A400E2EE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2451CC11D78F0A400E2EE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2451CCA1D78F1F100E2EE83 /* Notice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Notice.storyboard; path = Storyboards/Notice.storyboard; sourceTree = "<group>"; };
+		D2451CCC1D78F54400E2EE83 /* NoticeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeMainViewController.h; path = ViewControllers/NoticeMainViewController.h; sourceTree = "<group>"; };
+		D2451CCD1D78F54400E2EE83 /* NoticeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeMainViewController.m; path = ViewControllers/NoticeMainViewController.m; sourceTree = "<group>"; };
+		D2451CCF1D78F56400E2EE83 /* NoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeViewController.h; path = ViewControllers/NoticeViewController.h; sourceTree = "<group>"; };
+		D2451CD01D78F56400E2EE83 /* NoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeViewController.m; path = ViewControllers/NoticeViewController.m; sourceTree = "<group>"; };
+		D2451CD61D78F5FD00E2EE83 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2451CD81D78FB4500E2EE83 /* NSArray+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Custom.h"; sourceTree = "<group>"; };
+		D2451CD91D78FB4500E2EE83 /* NSArray+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Custom.m"; sourceTree = "<group>"; };
+		D2451CDA1D78FB4500E2EE83 /* NSDate+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Custom.h"; sourceTree = "<group>"; };
+		D2451CDB1D78FB4500E2EE83 /* NSDate+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Custom.m"; sourceTree = "<group>"; };
+		D2451CDC1D78FB4500E2EE83 /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
+		D2451CDD1D78FB4500E2EE83 /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
+		D2451CDE1D78FB4500E2EE83 /* NSDictionary+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Custom.h"; sourceTree = "<group>"; };
+		D2451CDF1D78FB4500E2EE83 /* NSDictionary+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Custom.m"; sourceTree = "<group>"; };
+		D2451CE01D78FB4500E2EE83 /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		D2451CE11D78FB4500E2EE83 /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		D2451CE21D78FB4500E2EE83 /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
+		D2451CE31D78FB4500E2EE83 /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; };
+		D2451CE61D78FB4500E2EE83 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		D2451CE71D78FB4500E2EE83 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		D2451CF01D78FB9900E2EE83 /* DefineFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DefineFunctions.h; path = Commons/DefineFunctions.h; sourceTree = "<group>"; };
+		D2451CF11D78FB9900E2EE83 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = Commons/Defines.h; sourceTree = "<group>"; };
+		D2451CF21D78FB9900E2EE83 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = Commons/Enums.h; sourceTree = "<group>"; };
+		D2451CF31D7909CD00E2EE83 /* NoticeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeContainerViewController.h; path = ViewControllers/NoticeContainerViewController.h; sourceTree = "<group>"; };
+		D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeContainerViewController.m; path = ViewControllers/NoticeContainerViewController.m; sourceTree = "<group>"; };
+		D2451CF61D790F1F00E2EE83 /* StoryboardPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardPerform.h; path = Performs/StoryboardPerform.h; sourceTree = "<group>"; };
+		D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardPerform.m; path = Performs/StoryboardPerform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,11 @@
 		D2451CAC1D78F0A400E2EE83 /* PFXNotice */ = {
 			isa = PBXGroup;
 			children = (
+				D2451CD21D78F5C700E2EE83 /* Performs */,
+				D2451CC91D78F1AA00E2EE83 /* Commons */,
+				D2451CD71D78FB4500E2EE83 /* Decorators */,
+				D2451CC81D78F1A100E2EE83 /* Storyboards */,
+				D2451CC71D78F19100E2EE83 /* ViewControllers */,
 				D2451CB01D78F0A400E2EE83 /* AppDelegate.h */,
 				D2451CB11D78F0A400E2EE83 /* AppDelegate.m */,
 				D2451CB31D78F0A400E2EE83 /* ViewController.h */,
@@ -78,8 +122,70 @@
 			isa = PBXGroup;
 			children = (
 				D2451CAE1D78F0A400E2EE83 /* main.m */,
+				D2451CD61D78F5FD00E2EE83 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2451CC71D78F19100E2EE83 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CCC1D78F54400E2EE83 /* NoticeMainViewController.h */,
+				D2451CCD1D78F54400E2EE83 /* NoticeMainViewController.m */,
+				D2451CCF1D78F56400E2EE83 /* NoticeViewController.h */,
+				D2451CD01D78F56400E2EE83 /* NoticeViewController.m */,
+				D2451CF31D7909CD00E2EE83 /* NoticeContainerViewController.h */,
+				D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D2451CC81D78F1A100E2EE83 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CCA1D78F1F100E2EE83 /* Notice.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D2451CC91D78F1AA00E2EE83 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CF01D78FB9900E2EE83 /* DefineFunctions.h */,
+				D2451CF11D78FB9900E2EE83 /* Defines.h */,
+				D2451CF21D78FB9900E2EE83 /* Enums.h */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		D2451CD21D78F5C700E2EE83 /* Performs */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CF61D790F1F00E2EE83 /* StoryboardPerform.h */,
+				D2451CF71D790F1F00E2EE83 /* StoryboardPerform.m */,
+			);
+			name = Performs;
+			sourceTree = "<group>";
+		};
+		D2451CD71D78FB4500E2EE83 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				D2451CD81D78FB4500E2EE83 /* NSArray+Custom.h */,
+				D2451CD91D78FB4500E2EE83 /* NSArray+Custom.m */,
+				D2451CDA1D78FB4500E2EE83 /* NSDate+Custom.h */,
+				D2451CDB1D78FB4500E2EE83 /* NSDate+Custom.m */,
+				D2451CDC1D78FB4500E2EE83 /* NSDate+Formatter.h */,
+				D2451CDD1D78FB4500E2EE83 /* NSDate+Formatter.m */,
+				D2451CDE1D78FB4500E2EE83 /* NSDictionary+Custom.h */,
+				D2451CDF1D78FB4500E2EE83 /* NSDictionary+Custom.m */,
+				D2451CE01D78FB4500E2EE83 /* NSString+Custom.h */,
+				D2451CE11D78FB4500E2EE83 /* NSString+Custom.m */,
+				D2451CE21D78FB4500E2EE83 /* UIImage+Custom.h */,
+				D2451CE31D78FB4500E2EE83 /* UIImage+Custom.m */,
+				D2451CE61D78FB4500E2EE83 /* UIView+Custom.h */,
+				D2451CE71D78FB4500E2EE83 /* UIView+Custom.m */,
+			);
+			path = Decorators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +247,7 @@
 			files = (
 				D2451CC01D78F0A400E2EE83 /* LaunchScreen.storyboard in Resources */,
 				D2451CBD1D78F0A400E2EE83 /* Assets.xcassets in Resources */,
+				D2451CCB1D78F1F100E2EE83 /* Notice.storyboard in Resources */,
 				D2451CB81D78F0A400E2EE83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +260,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2451CB51D78F0A400E2EE83 /* ViewController.m in Sources */,
+				D2451CE81D78FB4500E2EE83 /* NSArray+Custom.m in Sources */,
+				D2451CF81D790F1F00E2EE83 /* StoryboardPerform.m in Sources */,
 				D2451CB21D78F0A400E2EE83 /* AppDelegate.m in Sources */,
+				D2451CEF1D78FB4500E2EE83 /* UIView+Custom.m in Sources */,
 				D2451CBB1D78F0A400E2EE83 /* PFXNotice.xcdatamodeld in Sources */,
 				D2451CAF1D78F0A400E2EE83 /* main.m in Sources */,
+				D2451CEB1D78FB4500E2EE83 /* NSDictionary+Custom.m in Sources */,
+				D2451CF51D7909CD00E2EE83 /* NoticeContainerViewController.m in Sources */,
+				D2451CEC1D78FB4500E2EE83 /* NSString+Custom.m in Sources */,
+				D2451CED1D78FB4500E2EE83 /* UIImage+Custom.m in Sources */,
+				D2451CEA1D78FB4500E2EE83 /* NSDate+Formatter.m in Sources */,
+				D2451CD11D78F56400E2EE83 /* NoticeViewController.m in Sources */,
+				D2451CCE1D78F54400E2EE83 /* NoticeMainViewController.m in Sources */,
+				D2451CE91D78FB4500E2EE83 /* NSDate+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PFXNotice/PrefixHeader.pch;
 				INFOPLIST_FILE = PFXNotice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXNotice;
@@ -278,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PFXNotice/PrefixHeader.pch;
 				INFOPLIST_FILE = PFXNotice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXNotice;
@@ -304,6 +424,7 @@
 				D2451CC61D78F0A400E2EE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
