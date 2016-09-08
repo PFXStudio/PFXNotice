@@ -29,8 +29,10 @@
 - (IBAction)touchedShowButton:(id)sender {
     NSMutableArray *noticeDatas = [NoticeData sharedNoticeDatas];
     [noticeDatas addObject:[NoticeData noticeDataWithContents:@"" imagePath:@"http://www.neolli.com/files/attach/images/663/521/355/1e38ae6055a071f808bf4654ae5340a4.jpg"]];
+    [noticeDatas addObject:[NoticeData noticeDataWithContents:@"민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n민ㅇ햐ㅐㅁ곰댁허ㅐㅁㄴㅇㅍㅁ래눙ㄹ ㅇㄴ머ㅐㄹㅁㄴ어 \n asdflajvoi soadjvaosdjosadfjoias ㄴㅇ래모ㅑㅇ러마ㅣㄴㅇㅁ 이ㅓ \n" imagePath:nil]];
     [noticeDatas addObject:[NoticeData noticeDataWithContents:@"" imagePath:@"http://global.hanwha.co.kr/data/asp/type64/images/languagepop/popup/languagePOPopen_20160711.jpg"]];
     [noticeDatas addObject:[NoticeData noticeDataWithContents:@"" imagePath:@"https://s-media-cache-ak0.pinimg.com/564x/97/45/87/97458755a59fb27712b2550cd5ac235f.jpg"]];
+    [noticeDatas addObject:[NoticeData noticeDataWithContents:@"asdojasodiasdfljalsd" imagePath:nil]];
     [noticeDatas addObject:[NoticeData noticeDataWithContents:@"" imagePath:@"https://s-media-cache-ak0.pinimg.com/564x/20/75/dc/2075dc20830cc5a14b1312582c38f978.jpg"]];
 
     NoticeMainViewController *noticeMainViewController = [[StoryboardPerform noticeStoryboard] instantiateViewControllerWithIdentifier:NSStringFromClass([NoticeMainViewController class])];

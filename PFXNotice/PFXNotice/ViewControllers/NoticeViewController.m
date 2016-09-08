@@ -21,8 +21,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.noticeData.imagePath]];
+    if (self.noticeData.imagePath == nil)
+    {
+        [self.webView loadHTMLString:[self.noticeData.contents stringByReplacingOccurrencesOfString:@"\n" withString:@"<br/>"] baseURL:nil];
+        return;
+    }
+    
     self.webView.scalesPageToFit = true;
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.noticeData.imagePath]];
     [self.webView loadRequest:request];
     
     [self.indicatorView startAnimating];

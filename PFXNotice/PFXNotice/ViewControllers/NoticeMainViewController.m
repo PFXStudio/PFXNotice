@@ -66,6 +66,7 @@
         return;
     }
     
+    self.noticeConainerHeightConstraint.constant = kDefaultContentsHeight + kToolbarHeight;
     self.checkButton.tag = 1;
     [self touchedCheckButton:nil];
     [self.noticeContainerViewController nextViewControllersWithIdentifier:@"" completion:^{
@@ -99,7 +100,6 @@
     NSNumber *contentsHeight = [userInfo objectForKey:@"contentsHeight"];
     if (kDefaultContentsHeight >= [contentsHeight floatValue])
     {
-        self.noticeConainerHeightConstraint.constant = kDefaultContentsHeight + kToolbarHeight;
         return;
     }
     
