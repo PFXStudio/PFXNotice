@@ -22,4 +22,6 @@
 + (instancetype)noticeDataWithContents:(NSString *)contents imagePath:(NSString *)imagePath;
 + (NSMutableArray *)sharedNoticeDatas;
 
+- (BOOL)hasImagePath;
+
 @end

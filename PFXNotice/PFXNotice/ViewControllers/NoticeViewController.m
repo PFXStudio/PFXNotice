@@ -46,8 +46,19 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
     [UIView animateWithDuration:1 animations:^{
-        
         [self.webView setAlpha:1];
+
+//        NSString *result = [webView stringByEvaluatingJavaScriptFromString:@"document.body.offsetWidth;"];
+//        int width = [result intValue];
+//        NSLog(@"body width %d", width);
+//
+//        result = [webView stringByEvaluatingJavaScriptFromString:@"document.body.offsetHeight;"];
+//        int height = [result intValue];
+//        NSLog(@"body height %d", height);
+        
+        CGFloat contentsHeight = webView.scrollView.contentSize.height;
+        NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithFloat:contentsHeight], @"contentsHeight", nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kChangedContents object:nil userInfo:userInfo];
     }];
 }
 

@@ -12,10 +12,13 @@
 #define IMAGES_FOLDERPATH @"Images"
 #define MAX_PHOTOWITDH 640
 #define MAX_PHOTOHEIGHT 480
+#define kDefaultContentsHeight 300
+#define kToolbarHeight 44
 #define kUserTutorial @"userTutorial"
 #define kUserUniqueKey @"userUniqueKey"
 #define kUserPassword @"userPassword"
 #define kUserFilterData @"userFilterData"
+#define kChangedContents @"changedContents"
 
 #define MAX_1000LENGTH 1000
 #define MAX_256LENGTH 256

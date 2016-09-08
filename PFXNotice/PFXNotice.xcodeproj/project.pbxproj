@@ -139,10 +139,10 @@
 			children = (
 				D2451CCC1D78F54400E2EE83 /* NoticeMainViewController.h */,
 				D2451CCD1D78F54400E2EE83 /* NoticeMainViewController.m */,
-				D2451CCF1D78F56400E2EE83 /* NoticeViewController.h */,
-				D2451CD01D78F56400E2EE83 /* NoticeViewController.m */,
 				D2451CF31D7909CD00E2EE83 /* NoticeContainerViewController.h */,
 				D2451CF41D7909CD00E2EE83 /* NoticeContainerViewController.m */,
+				D2451CCF1D78F56400E2EE83 /* NoticeViewController.h */,
+				D2451CD01D78F56400E2EE83 /* NoticeViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";

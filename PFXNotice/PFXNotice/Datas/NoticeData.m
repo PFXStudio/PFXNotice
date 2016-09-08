@@ -36,4 +36,9 @@
     return s_noticeDatas;
 }
 
+- (BOOL)hasImagePath
+{
+    return [self.imagePath length] > 0;
+}
+
 @end

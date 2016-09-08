@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UIView *noticeView;
 @property (weak, nonatomic) NoticeContainerViewController *noticeContainerViewController;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *noticeConainerHeightConstraint;
 
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UIButton *checkButton;
@@ -26,6 +27,16 @@
     // Do any additional setup after loading the view.
     
     [self.noticeView roundLayer];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changedContents:) name:kChangedContents object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -80,6 +91,23 @@
 
     self.checkButton.tag = 1;
     [self.checkButton setImage:[UIImage imageNamed:@"iconCheckBox"] forState:UIControlStateNormal];
+}
+
+- (void)changedContents:(NSNotification *)notification
+{
+    NSDictionary *userInfo = [notification userInfo];
+    NSNumber *contentsHeight = [userInfo objectForKey:@"contentsHeight"];
+    if (kDefaultContentsHeight >= [contentsHeight floatValue])
+    {
+        self.noticeConainerHeightConstraint.constant = kDefaultContentsHeight + kToolbarHeight;
+        return;
+    }
+    
+    CGFloat maxHeight = self.view.frame.size.height - 100;
+    CGFloat fixHeight = MIN([contentsHeight floatValue], maxHeight);
+    
+    NSLog(@"%s userInfo %f", __func__, fixHeight);
+    self.noticeConainerHeightConstraint.constant = fixHeight + kToolbarHeight;
 }
 
 
