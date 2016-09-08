@@ -77,15 +77,16 @@
                                     <constraint firstItem="mt1-Ia-9xA" firstAttribute="top" secondItem="Dk7-UV-mDg" secondAttribute="top" id="ZZZ-Kt-8qz"/>
                                     <constraint firstItem="Kne-d5-Fj5" firstAttribute="leading" secondItem="Dk7-UV-mDg" secondAttribute="leading" id="i19-hI-CI9"/>
                                     <constraint firstAttribute="height" constant="344" id="lXV-oA-eFF"/>
-                                    <constraint firstAttribute="width" constant="300" id="lr4-xh-wMW"/>
                                     <constraint firstItem="Kne-d5-Fj5" firstAttribute="top" secondItem="mt1-Ia-9xA" secondAttribute="bottom" id="oRS-2J-AZT"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Dk7-UV-mDg" secondAttribute="trailing" constant="38" id="04j-W1-Nm5"/>
                             <constraint firstItem="Dk7-UV-mDg" firstAttribute="centerX" secondItem="aMs-ea-jUN" secondAttribute="centerX" id="bNU-AT-hwI"/>
                             <constraint firstItem="Dk7-UV-mDg" firstAttribute="centerY" secondItem="aMs-ea-jUN" secondAttribute="centerY" id="eOn-Tq-lNa"/>
+                            <constraint firstItem="Dk7-UV-mDg" firstAttribute="leading" secondItem="aMs-ea-jUN" secondAttribute="leading" constant="37" id="fk7-Vh-lZv"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
