@@ -66,6 +66,7 @@
         return;
     }
     
+    NoticeData *noticeData = [[NoticeData sharedNoticeDatas] firstObject];
     dispatch_async(dispatch_get_main_queue(), ^{
         self.noticeConainerHeightConstraint.constant = kDefaultContentsHeight + kToolbarHeight;
     });
@@ -79,7 +80,7 @@
             return;
         }
         
-        [self.nextButton setTitle:@"close" forState:UIControlStateNormal];
+        [self.nextButton setImage:[UIImage imageNamed:@"iconClose"] forState:UIControlStateNormal];
     }];
 }
 
